@@ -1,6 +1,12 @@
 spring:
+  application:
+    name: Server
+
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    password: zhanghai2
     username: root
-    url: jdbc:mysql://localhost:/college_poi
+    password: zhanghai2
+    url: jdbc:mysql://127.0.0.1:3306/college_poi
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8020
