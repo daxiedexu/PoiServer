@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.annotation.TableName
  */
 @TableName("poi_table")
 data class PoiEntity(
-    val id: Int,
+    var id: Int,
     val name: String,
     val description: String,
     val lng: Float,
